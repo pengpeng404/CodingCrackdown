@@ -30,7 +30,7 @@ func main() {
 	/*
 		测试时间 平均耗时 120ms
 	*/
-	testTimes := 100
+	testTimes := 1000
 	arrLength := 2000
 	queryTimes := 1000000
 	for i := 0; i < testTimes; i++ {
