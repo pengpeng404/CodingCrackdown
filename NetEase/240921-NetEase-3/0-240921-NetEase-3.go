@@ -15,6 +15,7 @@ func maxBridges(arr1, arr2 []int) int {
 		return 0
 	}
 	//return process(arr1, arr2, len(arr1), len(arr2), 0, 0)
+	fmt.Println(process(arr1, arr2, len(arr1), len(arr2), 0, 0))
 	m := len(arr1)
 	n := len(arr2)
 	dp := make([][]int, m+1)
